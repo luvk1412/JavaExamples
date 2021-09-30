@@ -1,0 +1,7 @@
+https://openjdk.java.net/jeps/377
+https://openjdk.java.net/jeps/379
+
+- Change the Z Garbage Collector from an experimental feature into a product feature.
+- default GC, which remains G1.
+- Change the Shenandoah garbage collector from an experimental feature into a product feature.
+

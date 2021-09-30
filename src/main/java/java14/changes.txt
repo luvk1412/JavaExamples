@@ -1,0 +1,5 @@
+https://openjdk.java.net/projects/jdk/14/
+
+- NUMA-Aware Memory Allocation for G1
+- ZGC on macOS
+- ZGC on Windows

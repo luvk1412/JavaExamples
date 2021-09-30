@@ -1,0 +1,5 @@
+
+//https://openjdk.java.net/projects/jdk/12/
+- Changes related to Garbage Collection Algorithms
+-- Shenandoah (Experimental)
+-- Return under committed memory from g1
