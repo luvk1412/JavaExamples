@@ -1,4 +1,4 @@
-package java17.plant;
+package java17.sealedclasses.plant;
 
 /**
  * A sealed class can be abstract too.

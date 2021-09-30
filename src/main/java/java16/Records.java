@@ -9,7 +9,7 @@ public class Records {
     Point point = new Point(12, 13);
     System.out.println(point.x());
     System.out.println(point.y());
-    System.out.println(point.sum());
+    System.out.println(point);
 
     Point anotherPoint = new Point(12, 13);
     System.out.println("Equality check: " + point.equals(anotherPoint));
@@ -53,9 +53,6 @@ class PointOld {
 }
 
 record Point(int x, int y) {
-  public int sum() {
-    return x + y;
-  }
 }
 
 record Range(int low, int high) {

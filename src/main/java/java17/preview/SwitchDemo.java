@@ -1,7 +1,7 @@
 package java17.preview;
 
-import java17.pollution.AirPollution;
-import java17.pollution.WaterPollution;
+import java17.sealedclasses.pollution.AirPollution;
+import java17.sealedclasses.pollution.WaterPollution;
 
 /**
  * A switch is classified as a statement or an expression depending on whether it returns a value or not.

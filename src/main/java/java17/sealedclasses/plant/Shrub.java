@@ -1,4 +1,4 @@
-package java17.plant;
+package java17.sealedclasses.plant;
 
 public final class Shrub extends Plant{
 }
