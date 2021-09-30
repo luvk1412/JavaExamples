@@ -4,7 +4,7 @@ import java17.sealedclasses.plant.*;
 
 // pattern matching + switch + sealed evaluate demo[oracle] : https://slides.nipafx.dev/patterns/index.html#/
 
-public class SealedClassDemo {
+public class SealedClassWithSwitch {
   int process(Plant plant) {
     return switch (plant) {
       case Herb h -> 1;
