@@ -25,8 +25,8 @@ public class ImmutableCollections {
     List<Integer> copyList = List.copyOf(intList);
 
     intList.add(40);
-    System.out.println("Original List : "+intList);
-    System.out.println("Copy List : "+copyList);
+    System.out.println("Original List : " + intList);
+    System.out.println("Copy List : " + copyList);
     copyList.add(50);
   }
 
@@ -35,9 +35,9 @@ public class ImmutableCollections {
    * Any attempt to modify such a collection would result in java.lang.UnsupportedOperationException runtime exception
    */
   public static void toUnmodifiableTest() {
-    List<Integer> intList = Stream.of(10,20,30,40,50).filter(i->i%20==0).collect(Collectors.toUnmodifiableList());
+    List<Integer> intList = Stream.of(10, 20, 30, 40, 50).filter(i -> i % 20 == 0).toList();
     System.out.println(intList);
     intList.add(70);
-    System.out.println("After Modification :"+intList);
+    System.out.println("After Modification :" + intList);
   }
 }

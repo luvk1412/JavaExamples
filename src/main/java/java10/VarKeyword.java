@@ -28,11 +28,11 @@ public class VarKeyword {
 
     var();
 
-		/*COMPILATION ERROR :
-		var i;
-		var a,b=0;
-		var c=null;
-		*/
+  /*COMPILATION ERROR :
+    var i;
+    var a, b = 0;
+    var c = null;
+	*/
   }
 
   public static void var() {

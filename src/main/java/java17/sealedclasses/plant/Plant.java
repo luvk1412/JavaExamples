@@ -6,6 +6,7 @@ package java17.sealedclasses.plant;
  */
 public sealed abstract class Plant permits Herb, Shrub, Climber {
 }
+
 /**
  * The classes that extend a sealed class must either be final, non-sealed, or sealed.
  * A final class prohibits further extension.

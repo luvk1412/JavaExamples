@@ -11,8 +11,8 @@ public class PrivateMethod implements PrivateMethodInterface {
 
 
 interface PrivateMethodInterface {
-  default void publicMethod(){
-   privateMethod();
+  default void publicMethod() {
+    privateMethod();
   }
 
   private void privateMethod() {
