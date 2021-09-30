@@ -2,7 +2,7 @@ package java17.preview;
 
 import java17.sealedclasses.plant.*;
 
-// pattern matching + switch + sealed evaluate demo[oracle] : https://slides.nipafx.dev/patterns/index.html#/
+// pattern matching + switch + sealed evaluate demo[oracle] : https://slides.nipafx.dev/patterns/index.html#/ , h,n,k -> keys to travel in ppt
 
 public class SealedClassWithSwitch {
   int process(Plant plant) {
